@@ -32,16 +32,6 @@ knitr::opts_chunk$set(include = TRUE, warning = FALSE, message = FALSE, comment 
 #mean
 ```
 
-## Basic Structure
-
-```{r structure}
-Name_of_function <- function(ingredient_1){
-  # Body of your function
-  # where your R code goes
-  # "Recipe goes here"
-}
-```
-
 ## `r emo::ji("cake")` {.smaller}
 <div style="float: left; width: 40%;">
 ### Recipe
@@ -72,7 +62,17 @@ Pumpkin_pie <- function(pumpkin, ..., p_crust){
 ```
 </div>
 
-## Ex. Function for Area 
+## Basic Structure
+
+```{r structure}
+Name_of_function <- function(ingredient_1){
+  # Body of your function
+  # where your R code goes
+  # "Recipe goes here"
+}
+```
+
+## Demo -  Function for Area 
 ```{r function demo}
 #fill in the template
 #variables in your arguments can be referenced in your body
